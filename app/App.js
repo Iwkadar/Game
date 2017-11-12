@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container-fluid wrapper">
-        <Route exact path='/players' component={c.PlayersCollection} />
+        <Route exact path='/' component={c.PlayersCollection} />
         <Route exact path='/teams' component={c.Teams} />
       </div>
     );

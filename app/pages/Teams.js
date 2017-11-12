@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import players from 'store/players.json';
-import PlayerDetail from './PlayerDetail';
+import PlayerDetail from 'components/PlayerDetail';
 
 import styles from './Teams.scss';
 
