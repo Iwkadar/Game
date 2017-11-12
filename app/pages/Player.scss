@@ -1,6 +1,6 @@
 .playerDetailContainer {
   padding:0 15px;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 678px) {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -10,34 +10,40 @@
     width: 33.333%;
   }
 
-  .playerDetail {
-    position: relative;
-    min-height: 20px;
-    padding: 5px;
-    margin-bottom: 30px;
-    background: #e5e0d7;
-    border: 1px solid #dfdfdf;
-    border-radius: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-    @media only screen and (min-width: 992px) {
-      height: 100%;
-    }
+  @media only screen and (min-width: 1200px) {
+    width: 25%;
   }
+}
 
-  .detailLink {
-    display: inline-block;
+.playerDetail {
+  position: relative;
+  min-height: 20px;
+  padding: 5px;
+  margin-bottom: 30px;
+  background: #e5e0d7;
+  border: 1px solid #dfdfdf;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  @media only screen and (min-width: 992px) {
+    height: 100%;
+  }
+}
+
+.detailLink {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: #fafafa;
+  color: #333;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.36);
+
+  &:hover {
     text-decoration: none;
-    background-color: #fafafa;
     color: #333;
-    border: none;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.36);
-
-    &:hover {
-      text-decoration: none;
-      color: #333;
-    }
   }
 }
 

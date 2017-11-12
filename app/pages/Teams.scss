@@ -1,0 +1,51 @@
+.selectContainer {
+  margin-bottom: 30px;
+
+  select {
+    width: 60%;
+    display: inline-block;
+    @media only screen and (max-width: 680px) {
+      width:100%;
+    }
+  }
+
+  a {
+    margin-top: 0;
+    background: #FFA500;
+    @media only screen and (max-width: 680px) {
+      margin-top: 20px;
+      width:100%;
+    }
+
+    &:hover {
+      background: #d49012;
+    }
+  }
+}
+
+.teamsContainer {
+  width: 660px;
+  margin: auto;
+  padding: 35px;
+  @media only screen and (max-width: 680px) {
+    width:90%;
+  }
+
+  .playerDetailContainer {
+    width: 100%!important;
+  }
+
+  h3 {
+    text-align: center;
+    color: #e5e0d7;
+  }
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+
+  & > p {
+    color: red;
+  }
+}

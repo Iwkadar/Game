@@ -3,5 +3,32 @@
     font-family: 'Titillium Web', sans-serif;
     color: #333;
     background-color: #222;
+
+    .button {
+      float: right;
+      margin-top: 20px;
+      padding: 8px 16px;
+      padding-left: 16px;
+      background: #167a8e;
+      border: none;
+      color: #fff;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.36);
+
+      &:hover {
+        background: #10535e;
+        color: #fff;
+      }
+    }
+
+    .button.button-play {
+      float: none;
+      text-transform: uppercase;
+      padding-right: 50px;
+      padding-left: 50px;
+      @media only screen and (max-width: 680px) {
+        width:100%;
+      }
+    }
   }
 }
