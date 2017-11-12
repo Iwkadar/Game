@@ -1,9 +1,9 @@
-import Collection from './Collection';
+import PlayersCollection from './PlayersCollection';
 import New from './New';
 import Edit from './Edit';
 
 export default {
-  Collection,
+  PlayersCollection,
   New,
   Edit
 };
