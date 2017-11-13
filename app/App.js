@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, withRouter, Switch, Redirect } from 'react-router-dom';
+import { Route} from 'react-router-dom';
 
 import c from './pages';
 
@@ -14,4 +14,4 @@ class App extends React.Component {
   }
 }
 
-export default withRouter(App);
+export default App;
